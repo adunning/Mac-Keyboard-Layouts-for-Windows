@@ -1,47 +1,44 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Mac Keyboard Layouts for Windows</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/turunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
+    <title>Mac Keyboard Layouts for Windows by adunning</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Mac Keyboard Layouts for Windows</h1>
-        <p>Type accents on a Windows machine without using Insert &gt; Symbol</p>
+    <section class="page-header">
+      <h1 class="project-name">Mac Keyboard Layouts for Windows</h1>
+      <h2 class="project-tagline">Type accents on a Windows machine without using Insert &gt; Symbol</h2>
+      <a href="https://github.com/adunning/Mac-Keyboard-Layouts-for-Windows" class="btn">View on GitHub</a>
+      <a href="https://github.com/adunning/Mac-Keyboard-Layouts-for-Windows/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/adunning/Mac-Keyboard-Layouts-for-Windows/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-        <ul>
-          <li><a href="https://github.com/adunning/Mac-Keyboard-Layouts-for-Windows/blob/master/us-ext.zip?raw=true">Download <strong>US Extended</strong></a></li>
-          <li><a href="https://github.com/adunning/Mac-Keyboard-Layouts-for-Windows/blob/master/us-mac.zip?raw=true">Download <strong>US Mac</strong></a></li>
-          <li><a href="https://github.com/adunning/Mac-Keyboard-Layouts-for-Windows">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-<p>Since the 1980s, Macintosh computers have shipped with a keyboard layout that makes it relatively easy to type diacritics and other symbols through the use of the Option key. This functionality has never been available on Windows, making it extremely cumbersome to type in foreign languages. I created two keyboard layouts to fix this situation.</p>
+    <section class="main-content">
+      <h1>
+<a id="mac-keyboard-layouts-for-windows" class="anchor" href="#mac-keyboard-layouts-for-windows" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mac Keyboard Layouts for Windows</h1>
 
-<p>The “US Mac” layout duplicates the classic United States layout used on the Mac (also identical to the “Canadian English” keyboard layout); the other replicates the “US Extended” keyboard layout introduced in Mac OS X. If you aren’t already accustomed to one, I would recommend starting with the US Extended, which provides more accents and places some characters in more logical positions. The standard layout, however, provides access to a few mathematical symbols that some might find useful.</p>
+<p>Since the 1980s, Macintosh computers have shipped with a keyboard layout that makes it relatively easy to type diacritics and other symbols through the use of the Option key. Windows only provides an <a href="http://symbolcodes.tlt.psu.edu/accents/codeint.html">“International”</a> layout with a very limited range of accents; strangely, using this layout makes the quotation mark and apostrophe keys completely unusable. I created two keyboard layouts to fix this situation: one duplicating the standard U.S. layout used on the Mac (also identical to the “Canadian English” keyboard layout), and another replicating the “U.S. Extended” keyboard layout introduced with Mac OS X. If you aren’t already accustomed to one, I would recommend starting with the U.S. Extended, which provides more accents and places some characters in more logical positions. The standard layout, however, provides access to a few mathematical symbols that some might find useful.</p>
 
-<p>Unlike the Windows <a href="http://tlt.its.psu.edu/suggestions/international/accents/codeint.html">“International”</a> keyboard layout, which makes the quotation mark and apostrophe keys completely unusable, these layouts do not change the basic keyboard, and thus do not require changing any existing habits; they can thus be installed on a shared computer without causing any confusion. For their use, refer to <a href="http://tlt.its.psu.edu/suggestions/international/accents/codemacext.html">Penn State University</a> or <a href="http://isites.harvard.edu/fs/docs/icb.topic537340.files/USExtended.pdf">Harvard</a> for the US Extended layout, or <a href="http://tlt.its.psu.edu/suggestions/international/accents/codemac.html">Penn State’s page on the standard Mac layout</a>, substituting the AltGr (right Alt) key for the option key. The On-Screen Keyboard built in to Windows will also allow you to view most of combinations.</p>
+<p>These layouts do not change the basic keyboard, and thus do not require changing any existing habits. For their use, refer to <a href="http://symbolcodes.tlt.psu.edu/accents/codemacext.html">Penn State University</a> or <a href="http://isites.harvard.edu/fs/docs/icb.topic537340.files/USExtended.pdf">Harvard</a> for the U.S. Extended layout, or <a href="http://symbolcodes.tlt.psu.edu/accents/codemac.html">Penn State’s page on the standard Mac layout</a>, substituting the AltGr (right Alt) key for the option key. The On-Screen Keyboard built in to Windows will also allow you to view most of combinations.</p>
 
-<p>To install, unzip the downloaded file, and run the “setup.exe” program; the installer will automatically add the layout to the input menu. Both layouts can be installed on a system simultaneously, and can be removed through the Control Panel.</p>
+<p>To install, unzip the downloaded file, and run the “setup.exe” program; the installer will automatically add the layout to the input menu. I’ve tested it on Windows XP, Windows Vista, and Windows 7. Both layouts can be installed on a system simultaneously, and can be removed through the Control Panel.</p>
 
-<p>The source files are in <a href="http://msdn.microsoft.com/en-us/goglobal/bb964665">Microsoft Keyboard Layout Creator</a> format. These layouts were coded by hand, but should you wish to migrate another keyboard layout from the Mac to Windows, there is now a <a href="http://blogs.adobe.com/typblography/2012/03/on-keyboard-layouts.html">script made for this purpose by Adobe</a>.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="http://individual.utoronto.ca/dunning/">Andrew Dunning</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+<p>The source file are in <a href="http://msdn.microsoft.com/en-us/goglobal/bb964665">Microsoft Keyboard Layout Creator</a> format. These layouts were coded by hand, but should you wish to migrate another keyboard layout from the Mac to Windows, you now use a <a href="http://blogs.adobe.com/typblography/2012/03/on-keyboard-layouts.html">script made for this purpose by Adobe</a>.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/adunning/Mac-Keyboard-Layouts-for-Windows">Mac Keyboard Layouts for Windows</a> is maintained by <a href="https://github.com/adunning">adunning</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
+
+    </section>
+
+            <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
